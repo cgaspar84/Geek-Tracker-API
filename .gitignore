@@ -16,3 +16,7 @@ target/
 
 # OS files
 .DS_Store
+
+*.pyc
+*.pyo
+
