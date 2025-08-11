@@ -1,17 +1,19 @@
-# Geek Tracker API
+# Geek-Tracker API
 
-Initial entity definitions for managing geek and tech collections.
+Basic project structure for the Geek Tracker API. This repository contains
+placeholders for controllers, domain services, infrastructure adapters and
+configuration, along with Docker and CI setup.
 
-## Development
+## Structure
 
-Install dependencies:
+- `api/` - controllers, DTOs and mappers
+- `domain/` - domain entities and services
+- `infra/` - repositories, configuration and external adapters
+- `src/main/resources/`
+  - `application.yml` - Spring Boot configuration
+  - `db/migration/` - Flyway migrations
+- `docker/`
+  - `Dockerfile`
+  - `docker-compose.yml`
+- `.github/workflows/ci.yml` - GitHub Actions workflow
 
-```bash
-pip install -r requirements.txt
-```
-
-Run tests:
-
-```bash
-pytest
-```
