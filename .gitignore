@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ / Eclipse
+.idea/
+*.iml
+*.classpath
+*.project
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+*.pyc
+*.pyo
+
